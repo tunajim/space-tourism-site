@@ -18,8 +18,8 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/technology.css">
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/technology.css" />
     <!-- <link rel="stylesheet" href="styles/crew.css"> -->
 
     <title>Frontend Mentor | Space tourism website</title>
@@ -61,29 +61,36 @@
           <span class="opaque-gray">03</span>
           Space Launch 101
         </span>
-        <div
+        <!-- <div
           id="crew-img"
           class="crew-image"
           alt="moon"
-        ></div>
-        <hr>
+        ></div> -->
+        <img
+          id="hero"
+          class="hero"
+          src="assets/technology/image-launch-vehicle-landscape.jpg"
+          alt="rocket launch"
+        />
       </section>
-      <section class="crew-info">
-        <ul class="crew-selectors">
-          <li data-crew="hurley" class="uppercase crew-selector active"></li>
-          <li data-crew="shuttleworth" class="uppercase crew-selector"></li>
-          <li data-crew="glover" class="uppercase crew-selector"></li>
-          <li data-crew="ansari" class="uppercase crew-selector"></li>
+      <section class="tech-info">
+        <ul class="tech-selectors">
+          <li data-tech="vehicle" class="uppercase tech-selector active">1</li>
+          <li data-tech="spaceport" class="uppercase tech-selector">2</li>
+          <li data-tech="capsule" class="uppercase tech-selector">3</li>
         </ul>
-        <section class="crew-name-section">
-          <span id="title" class="uppercase gray crew-title">Commander</span>
-          <h1 id="name" class="uppercase crew-name">Douglas Hurley</h1>
+        <section class="tech-name-section">
+          <span id="title" class="uppercase gray terminology-label"
+            >The Terminology</span
+          >
+          <h1 id="name" class="uppercase tech-name">Launch Vehicle</h1>
         </section>
-        <p id="crew-description">
-          See our planet as you’ve never seen it before. A perfect relaxing trip
-          away to help regain perspective and come back refreshed. While you’re
-          there, take in some history by visiting the Luna 2 and Apollo 11
-          landing sites.
+        <p id="tech-description">
+          A launch vehicle or carrier rocket is a rocket-propelled vehicle used
+          to carry a payload from Earth's surface to space, usually to Earth
+          orbit or beyond. Our WEB-X carrier rocket is the most powerful in
+          operation. Standing 150 metres tall, it's quite an awe-inspiring sight
+          on the launch pad!
         </p>
       </section>
     </main>
@@ -95,5 +102,6 @@
     most powerful in operation. Standing 150 metres tall, it's quite an
     awe-inspiring sight on the launch pad!
     <script src="scripts/navbar.js"></script>
+    <script src="scripts/tech.js"></script>
   </body>
 </html>

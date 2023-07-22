@@ -14,9 +14,9 @@ function toggleNav(e) {
 function toggleMenuButton(nav) {
   nav.classList.contains("active")
     ? (navButton.style.backgroundImage =
-        "url(/starter-code/assets/shared/icon-close.svg)")
+        "url(./assets/shared/icon-close.svg)")
     : (navButton.style.backgroundImage =
-        'url("/starter-code/assets/shared/icon-hamburger.svg")');
+        'url("./assets/shared/icon-hamburger.svg")');
 }
 
 function toggleScroll(nav) {
