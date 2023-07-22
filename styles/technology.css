@@ -1,0 +1,24 @@
+body {
+    background-image: url(../assets/technology/background-technology-mobile.jpg)
+}
+
+.launch {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 1.6rem;
+    letter-spacing: 0.27rem;
+    color: #FFF;
+    
+}
+
+.crew-image {
+    width: 100%;
+    height: 300px;
+    background-image: url(../assets/technology/image-launch-vehicle-landscape.jpg);
+    background-size: 105%;
+    background-repeat: no-repeat;
+}
