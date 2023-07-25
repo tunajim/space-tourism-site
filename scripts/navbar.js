@@ -1,11 +1,15 @@
 console.log("connected");
 
+function $(data) {
+  return document.getElementById(data);
+}
+
 const navButton = document.querySelector(".menu-button");
 
 navButton.addEventListener("mouseup", toggleNav);
 
 function toggleNav(e) {
-  const nav = e.target.nextElementSibling;
+  const nav = document.querySelector(".navbar");
   nav.classList.toggle("active");
   toggleMenuButton(nav);
   toggleScroll(nav);

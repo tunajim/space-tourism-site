@@ -177,6 +177,10 @@ header {
   align-items: center;
 }
 
+.header-hr {
+  display: none;
+}
+
 .logo {
 }
 
@@ -396,8 +400,47 @@ p {
   .nav-link {
     height: 100%;
     align-items: center;
+    font-size: 1.4rem;
     
   }
+}
 
+@media (min-width: 1400px) {
+  .header-hr {
+    position: absolute;
+    left: 16.72rem;
+    display: block;
+    border: .1rem solid #ffffff25;
+    width: 35%;
+    z-index: 3; 
+  }
 
+  .link-num {
+    display: block;
+  }
+  
+  header {
+    margin-left: 1.5rem;
+    padding-top: 4rem;
+  }
+
+  .navbar {
+    padding: 0 12.3rem;
+  }
+
+  .navbar ul {
+    z-index: 4;
+  }
+}
+
+@media (min-width: 1500px) {
+  .header-hr {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .header-hr {
+    width: 50%;
+  }
 }

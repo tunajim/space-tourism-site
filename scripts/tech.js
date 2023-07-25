@@ -44,21 +44,19 @@ function changeTechPage(e) {
   }
 }
 
-function $(data) {
-  return document.getElementById(data);
-}
 
 function changeElemData(elem) {
   const name = $("name");
   const description = $("tech-description");
-  const img = $("hero");
+  const imgMobile = $("hero-mobile");
+  const imgDesktop = $("hero-desktop");
   const vp = window.visualViewport.width;
 
   console.log(description);
   name.textContent = elem.name;
   description.textContent = elem.description;
 
-  vp < 800
-    ? (img.src = `./assets/technology/image-${elem.image}-landscape.jpg`)
-    : (img.src = `./assets/technology/image-${elem.image}-portrait.jpg`);
+  vp < 900
+    ? (imgMobile.src = `./assets/technology/image-${elem.image}-landscape.jpg`)
+    : (imgDesktop.src = `./assets/technology/image-${elem.image}-portrait.jpg`);
 }
