@@ -56,7 +56,7 @@ function changeElemData(elem) {
   name.textContent = elem.name;
   description.textContent = elem.description;
 
-  vp < 900
+  vp < 1200
     ? (imgMobile.src = `./assets/technology/image-${elem.image}-landscape.jpg`)
     : (imgDesktop.src = `./assets/technology/image-${elem.image}-portrait.jpg`);
 }
