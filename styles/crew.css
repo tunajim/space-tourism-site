@@ -171,6 +171,16 @@ h1 {
         
     }
 
+    .crew-selectors {
+        justify-content: start;
+        margin-top: 10rem;
+    }
+
+    .crew-selector {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
     .crew-info {
         grid-row: 3 / 3;
         margin-left: 16.65rem;
