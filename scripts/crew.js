@@ -64,11 +64,11 @@ function updateElements(member) {
   const name = $("name");
   const description = $("crew-description");
 
-  imgMobile.src = `../assets/crew/image-${
+  imgMobile.src = `./assets/crew/image-${
     member.name.split(" ")[0]
   }-${member.name.split(" ")[1]}.webp`;
 
-  imgTablet.src = `../assets/crew/image-${
+  imgTablet.src = `./assets/crew/image-${
     member.name.split(" ")[0]
   }-${member.name.split(" ")[1]}.webp`;
 
