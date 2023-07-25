@@ -44,7 +44,6 @@ function changeTechPage(e) {
   }
 }
 
-
 function changeElemData(elem) {
   const name = $("name");
   const description = $("tech-description");

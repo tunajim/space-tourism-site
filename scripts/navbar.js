@@ -35,7 +35,6 @@ function toggleScroll(nav) {
 }
 
 function handleScroll(e) {
-    console.log(e);
     e.preventDefault();
 }
 
